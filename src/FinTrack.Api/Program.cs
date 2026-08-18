@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using FinTrack.Api.Expenses.Repositories;
+using FinTrack.Api.Expenses.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -73,6 +75,8 @@ builder.Services.AddSwaggerGen();
 // DI for transactions
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
+builder.Services.AddScoped<ISharedExpenseRepository, SharedExpenseRepository>();
+builder.Services.AddScoped<IExpenseSplittingService, ExpenseSplittingService>();
 
 var app = builder.Build();
 
