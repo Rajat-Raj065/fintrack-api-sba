@@ -244,3 +244,4 @@ C:\Users\2417804\source\repos\Fintrack-api\fintrack-api-sba\tests\FinTrack.Api.T
 C:\Users\2417804\source\repos\Fintrack-api\fintrack-api-sba\tests\FinTrack.Api.Tests\obj\Debug\net9.0\FinTrack.Api.Tests.pdb
 C:\Users\2417804\source\repos\Fintrack-api\fintrack-api-sba\tests\FinTrack.Api.Tests\obj\Debug\net9.0\FinTrack.Api.Tests.genruntimeconfig.cache
 C:\Users\2417804\source\repos\Fintrack-api\fintrack-api-sba\tests\FinTrack.Api.Tests\obj\Debug\net9.0\ref\FinTrack.Api.Tests.dll
+C:\Users\2417804\source\repos\Fintrack-api\fintrack-api-sba\tests\FinTrack.Api.Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
